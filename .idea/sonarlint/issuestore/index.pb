@@ -13,3 +13,5 @@ M
 tests/grid-management.test.ts,8/1/8136ccb633f062156f7da33ae5db92fb9f0a5f4d
 J
 contracts/smart-meter.clar,2/7/276fff6a7bad7fb80bfe00f88e9ef5451ea53695
+I
+tests/smart-meter.test.ts,4/4/4459dd9c435ff2637047f6bc8165a4b6f92a9a79
