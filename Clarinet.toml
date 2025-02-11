@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/energy-token.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.grid-management]
+path = 'contracts/grid-management.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
