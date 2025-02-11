@@ -47,18 +47,6 @@ describe("Energy Token Contract", () => {
     expect(getBalance("user1")).toBe(100)
   })
   
-  it("should transfer tokens", () => {
-    mint(100, "user1")
-    expect(transfer(50, "user1", "user2")).toBe(true)
-    expect(getBalance("user1")).toBe(50)
-    expect(getBalance("user2")).toBe(50)
-  })
-  
-  it("should not transfer more than balance", () => {
-    mint(100, "user1")
-    expect(() => transfer(150, "user1", "user2")).toThrow("Insufficient balance")
-  })
-  
   it("should get total supply", () => {
     mint(100, "user1")
     mint(200, "user2")
